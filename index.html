@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>my profile</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" type="text/css" href="animate.css">
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="flexslider.css" type="text/css">
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans|Tajawal" rel="stylesheet">
+	<link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+	<script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
+	<script src="wow.min.js"></script>
+              <script>
+              new WOW().init();
+              </script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
+	<script src="jquery.flexslider.js"></script>
+	<script type="text/javascript" charset="utf-8">
+  	$(window).load(function() {
+    $('.flexslider').flexslider({
+    	touch: true,
+    	pauseOnAction: false,
+    	pauseOnHover: false,
+    	slideshowSpeed: 3000,
+    });
+  });
+</script>
+
+  <script type="text/javascript">
+  	$(document).ready(function(){
+  		$('.toggle').click(function() {
+  			$('ul').toggleClass('active');
+  		})
+  	})
+  </script>
+</head>
+<body>
+
+<header>
+	<nav>
+		<div class="toggle">
+			<i class="fa fa-bars menu"></i>
+			<div class="logo2">
+		<a href="#"><img src="image/ahmed.png" class="ahmedlogo"></a>
+		<a href="#"><img src="image/ahmed2.png"></a>
+		</div>
+		</div>
+		<div class="logo">
+		<a href="#"><img src="image/ahmed.png" class="ahmedlogo"></a>
+		<a href="#"><img src="image/ahmed2.png"></a>
+		</div>
+		<div class="mainMenu">
+		<ul>
+			<li class="topborder"><a href="#mainContent">الرئيسية</a></li>
+			<li><a href="#aboutMe">معلومات عني</a></li>
+			<li><a href="#myProject">مشاريعي</a></li>
+			<li><a href="#contactMe">للتواصل</a></li>
+		</ul>
+		</div>
+	</nav>
+</header>
+
+
+<div id="mainContent">
+	<div class="home">
+		<div class="flexslider">
+			<ul class="slides">
+				<li>
+					<img src="image/CP.jpg">
+					<section class="flex-caption">
+						<p>مرحبا بكم</p>
+					</section>
+				</li>
+				<li>
+					<img src="image/keybord.jpg">
+					<section class="flex-caption">
+						<p>لدي شغف كبير في تصميم المواقع</p>
+					</section>
+				</li>
+				<li>
+					<img src="image/ctrl.jpg">
+					<section class="flex-caption">
+						<p>اسعى جاهداً لكسب رضاكم</p>
+					</section>
+				</li>
+			</ul>
+		</div>
+	</div>
+</div>
+
+	<div id="aboutMe">
+		<div class="mywordBackground">
+		<div class="myword wow bounce" data-wow-offset="10">
+		<div class="wow flash" data-wow-delay="2s" data-wow-offset="10">
+		<h1>معلوماتي</h1>
+		</div>
+		<p> انا احمد العكبري طالب ادارة اعمال, اعشق التصميم واحب اكتشاف كل الامور الجديدة<br>اضع لمساتي في كل تصميم, وابدع فيها</p>
+		</div>
+		</div>
+	</div>
+
+	<div id="myProject">
+		<div class="backProject">
+			<h1>مشاريعي</h1>
+			<div class="row">
+			<div class="divisionProject">
+				<div class="Project1 col-3 col-left">
+					<div class="spaceLink">
+					<a href="#">coming soon</a>
+					</div>
+					<div class="spaceImg">
+					<a href="#"><img src="image/Project1.jpg"></a>
+					</div>
+				</div>
+
+
+				<div class="Project2 col-3">
+					<div class="spaceLink">
+					<a href="#">coming soon</a>
+					</div>
+					<div class="spaceImg">
+					<a href="#"><img src="image/Project2.jpg"></a>
+					</div>
+				</div>
+			</div>
+
+
+			<div class="divisionProject">
+				<div class="Project3 col-3 col-left">
+					<div class="spaceLink">
+					<a href="#">coming soon</a>
+					</div>
+					<div class="spaceImg">
+					<a href="#"><img src="image/Project3.jpg"></a>
+					</div>
+				</div>
+
+
+				<div class="Project4 col-3">
+					<div class="spaceLink">
+					<a href="#">coming soon</a>
+					</div>
+					<div class="spaceImg">
+					<a href="#"><img src="image/Project4.jpg"></a>
+					</div>
+				</div>
+			</div>
+			</div>
+		</div>
+	</div>
+
+	<div id="contactMe">
+		<div class="backContact">
+			<h1>للتواصل</h1>
+			<div class="myContact">
+				<ul>
+					<li>الاسم : أحمد عمر العكبري</li>
+					<li>الرقم : +966559745926</li>
+					<li>البريد الالكتروني : a-ahmed987@outlook.com</li>
+					<li>فيس بوك : <a href="https://www.facebook.com/profile.php?id=100006510944126">اضغط هنا</a></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+
+
+</body>
+</html>
